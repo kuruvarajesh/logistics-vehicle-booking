@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 
-const uri = "mongodb+srv://kuruvarajesh:Kuruva1@rajeshcluster.lsonlui.mongodb.net/?retryWrites=true&w=majority&appName=RajeshCluster";
+const uri = "mongodb+srv://kuruvarajesh:Kuruva123456@rajeshcluster.lsonlui.mongodb.net/?retryWrites=true&w=majority&appName=RajeshCluster";
 const client = new MongoClient(uri);
 
 let db, vehiclesCol, bookingsCol;
