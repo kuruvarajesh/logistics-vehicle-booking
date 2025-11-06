@@ -30,7 +30,7 @@ function App() {
       setLoading(true);
       const params = new URLSearchParams(search);
       const res = await fetch(`http://localhost:5000/api/vehicles/available?${params}`);
-      if (!res.ok) throw new Error('Search failed');
+      if (!res.ok) throw new Error('Search Failed');
       const data = await res.json();
       setResults(data);
     } catch (e) {
